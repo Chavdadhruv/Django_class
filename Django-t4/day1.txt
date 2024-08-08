@@ -1,0 +1,13 @@
+ pip install django
+ python -m django startproject moviereviews
+ python manage.py runserver
+ default path admin in urls.py
+ when deply convert DEBUG = True into False 
+
+---------start here------
+ python manage.py startapp movie
+
+ step-1 goto setting.py and fidninstall apps and write movie in  INSTALLED_APPS list
+ step-2 goto the urls.py file and create path for movie and import library
+     path('',movieViews.home)
+    from movie import views as movieViews
