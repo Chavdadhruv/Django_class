@@ -1,0 +1,17 @@
+     https://github.com/PacktPublishing/Django-4-for-the-Impatient/tree/main/Chapter04/moviereviewsproject
+
+
+models.py for databse 
+
+pip install pillow
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+python manage.py createsuperuser.
+
+login in admin
+
+
+python manage.py changepassword dhruv
